@@ -9,6 +9,8 @@
 *DURATION*:4 WEEKS
 
 *MENTOR*:NEELA SANTOSH
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ce915334-24d3-4b52-87a8-8c9911d237a8" />
 This portfolio website is a responsive and visually appealing personal web page designed to showcase my profile, technical skills, and projects in a structured and professional manner. The main objective of this portfolio is to create a strong online presence that highlights my background as a Computer Engineering student and my interest in Web Development and Software Engineering.
 
 The website is built using HTML5 and CSS3, ensuring a clean layout, semantic structure, and modern design principles. The HTML structure is well-organized into different sections such as Header, Navigation, About Me, Skills, Projects, Contact, and Footer. Each section is clearly defined and easy to navigate, providing a smooth user experience.
