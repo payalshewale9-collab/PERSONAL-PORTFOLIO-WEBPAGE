@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f4f6f8;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+        nav {
+            background: #222;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: #667eea;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #444;
+        }
+        .about, .skills, .projects, .contact {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .skills ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            list-style: none;
+            gap: 15px;
+        }
+        .skills li {
+            background: #667eea;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 6px;
+        }
+        .projects .card {
+            background: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .contact p {
+            text-align: center;
+            font-size: 1.1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #222;
+            color: #ccc;
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Payal Shewale</h1>
+    <p>Computer Engineering Student | Web Developer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="about">
+        <h2>About Me</h2>
+        <p>
+           I am a Computer Engineering student with strong interest in Web Development
+and Software Engineering. I have hands-on experience in HTML, CSS,
+JavaScript and building real-time web applications.  
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React (Basic)</li>
+            <li>Node.js</li>
+            <li>MySQL</li>
+            <li>Python</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Real-Time Chat Application</h3>
+            <p>Technologies: HTML, CSS, JavaScript, Node.js, Socket.io</p>
+        </div>
+        <div class="card">
+            <h3>Interactive Quiz Application</h3>
+            <p>Technologies: HTML, CSS, JavaScript</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:payal@gmail.com">payal@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/payal" target="_blank">linkedin.com/in/payal</a> </p>
+        <p>GitHub: <a href="https://github.com/payal" target="_blank">github.com/payal</a></p>
+    </div>
+
+    <p style="text-align:center; margin-top:20px;">
+    <a href="resume.pdf" download style="
+        background:#667eea;
+        color:white;
+        padding:10px 20px;
+        border-radius:6px;
+        text-decoration:none;">
+        Download Resume
+    </a>
+</p>
+</section>
+
+<footer>
+    <p>© 2026 Payal Shewale | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
